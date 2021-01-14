@@ -45,7 +45,7 @@ void MyThread(void*)
 
 int main()
 {
-    printf("欢迎使用热爱客软件——热爱客键盘模拟鼠标点击\n使用方法：F9:左键，F10：右键，F11退出\n本程序开源，github：\n程序下载地址：www.reak.ml/ryktools\n如需技术支持，请于热爱客首页(reak.ml)联系站长\n");  
+    printf("欢迎使用热爱客软件——热爱客键盘模拟鼠标点击\n使用方法：F9:左键，F10：右键，F11退出\n本程序开源，github：https://github.com/qjhelecfan/reak\n程序下载地址：www.reak.ml/ryktools\n如需技术支持，请于热爱客首页(reak.ml)联系站长\n");  
     int n;
     HANDLE hThread = (HANDLE)_beginthread(MyThread, 0, NULL);//创建另一线程
     for(n=0;!end;++n)
